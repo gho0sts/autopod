@@ -6,16 +6,9 @@ import special_handling as special
 
 LATEST_ISSUES = []
 DATA_SCIENCE_WEEKLY = "http://www.datascienceweekly.org/newsletters"
-CENTER_FOR_DATA_INNOVATION = "http://www.datainnovation.org/category/blog/weekly-news/"
-KDNUGGETS = "https://www.kdnuggets.com/news/top-stories.html"
-PYTHONWEEKLY = "https://www.pythonweekly.com/archive/"
-IMPORTPYTHON = "http://importpython.com/newsletter/archive/"
+# Just keeping data science weekly here for now. Add your own!
 
-ALL_FEEDS = {"data_science_weekly": DATA_SCIENCE_WEEKLY,
-             "center_for_data_innovation": CENTER_FOR_DATA_INNOVATION,
-             "kdnuggets": KDNUGGETS,
-             "pythonweekly": PYTHONWEEKLY,
-             "importpython": IMPORTPYTHON
+ALL_FEEDS = {"data_science_weekly": DATA_SCIENCE_WEEKLY
              }
 
 for feed, url in ALL_FEEDS.iteritems():
