@@ -2,3 +2,4 @@ mp3s*
 .DS_Store
 credentials*
 credentials.json
+*cache*

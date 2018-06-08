@@ -1,4 +1,0 @@
-[
-  "tests/unit/test_pipeline.py::test__grab_visible", 
-  "tests/unit/test_pipeline.py::test__clean_articles"
-]

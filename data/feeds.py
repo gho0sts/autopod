@@ -6,7 +6,7 @@ import special_handling as special
 
 LATEST_ISSUES = []
 DATA_SCIENCE_WEEKLY = "http://www.datascienceweekly.org/newsletters"
-# Just keeping data science weekly here for now. Add your own!
+# Add more feeds!
 
 ALL_FEEDS = {"data_science_weekly": DATA_SCIENCE_WEEKLY
              }
